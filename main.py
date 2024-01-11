@@ -10,11 +10,6 @@ class City:
     def adress(self):
         print(f"Zadana adresa:\nMesto: {self.city}\nRegion: {self.region}\nKrajina: {self.country}\nPocet obyvatelov: {self.citizens} milionv\nPSC: {self.zip}\nAREA kod: {self.area}")
 
-    def adress_v1(self):
-        self.city = input("Mesto: ")
-
-
-
 
 mesto = City("Buenosaires","South America", "Argentina", 16, 8000, 291 )
 
